@@ -22,4 +22,4 @@ The manuscript makes a bounded taxonomy claim over 54 documented case-tests in t
 
 ## Review State
 
-Local compile smoke and claim/ledger guard passed after the 2026-05-24 RF-PUB-13 repair. A 5-model release council is required before Zenodo/arXiv final release.
+Local compile smoke, claim/ledger guard, and RF-PUB-13 5-model release council passed on 2026-05-24. Council lanes: Codex high, Gemini Pro, Deepseek V4 Flash, Deepseek V4 Pro, Claude Opus.

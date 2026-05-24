@@ -10,7 +10,7 @@ Purpose: local submission package for the PRA RevTeX formal-resonance-taxonomy m
 
 ## Packet State
 
-Status: LOCAL_PACKAGE_READY_WITH_54_CASE_SUPPLEMENT
+Status: LOCAL_PACKAGE_READY_WITH_54_CASE_SUPPLEMENT_AND_5_MODEL_COUNCIL_PASS
 
 Recovery source: `/data/research/hive_brain_lv9ss6qn/stdout.json`
 
@@ -23,6 +23,7 @@ The original RF-PUB-10 package directory was absent on 2026-05-21. This manifest
 3. The manuscript claim now states `54 documented case-tests` and treats the printed 15-row appendix as representative only.
 4. The arXiv source directory includes `2026-05-24_RF-PUB-13_54_case_public_supplement.tsv`.
 5. `/opt/hive/scripts/research-publication-claim-guard.py` passes for both the manuscript source and the arXiv source copy with `--expected-count 54`.
+6. RF-PUB-13 release council passed across Codex high, Gemini Pro, Deepseek V4 Flash, Deepseek V4 Pro, and Claude Opus on 2026-05-24.
 
 ## Files
 
@@ -73,10 +74,24 @@ python3 /opt/hive/scripts/research-publication-claim-guard.py \
 
 Result: `PASS` (`ledger_rows=54`; manuscript claim numbers include `54`, with `15` only as a representative subset).
 
+## RF-PUB-13 Council
+
+Result: `PASS`
+
+Council lanes:
+
+- Codex high: `PASS`
+- Gemini Pro: `PASS`
+- Deepseek V4 Flash: `PASS`
+- Deepseek V4 Pro: `PASS`
+- Claude Opus: `PASS` after retry with artifacts copied into the Claude sandbox
+
+Council scope: 54-vs-15 claim integrity, supplement sufficiency, bounded no-fifth-family wording, and publication guard wiring. Non-blocking Opus hardening note was applied immediately: the claim guard now requires local qualification near smaller-count mentions instead of accepting a global `representative` occurrence elsewhere in the paper.
+
 ## Claim Boundary
 
 This is an artifact recovery and transport-readiness restoration plus claim/ledger repair. It does not add resonance science, taxonomy families, guardrail wording, or instrument claims; it restores the adjudicated 54-case-test publication surface and prevents accidental down-scoping to the representative 15-row appendix.
 
 ## Remaining External Blockers
 
-Live arXiv/GitHub/Zenodo transport remains blocked until authenticated publication credentials/session are available. Local git is present in the 2026-05-21 runtime and should not be listed as a current local blocker.
+Live arXiv/Zenodo transport remains blocked until authenticated publication credentials/session are available. GitHub transport has been updated in `oldrich-research/formal-resonance-taxonomy` with the 54-case supplement. Local git is present in the 2026-05-21 runtime and should not be listed as a current local blocker.
