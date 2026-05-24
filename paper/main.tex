@@ -1,0 +1,154 @@
+\documentclass[aps,pra,reprint,nofootinbib]{revtex4-2}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\setlength{\emergencystretch}{1em}
+
+\begin{document}
+\title{A Formal Taxonomy of Physical Resonance Mechanisms}
+\author{Old\v{r}ich Dvo\v{r}\'ak}
+\email{oldrich@oldrich.me}
+\affiliation{Independent researcher}
+\date{2026-05-16}
+
+\begin{abstract}
+We propose a formal taxonomy of physical resonance mechanisms keyed to the load-bearing mathematical object rather than to broad community naming conventions or surface morphology. Within the tested scope, the best top-level split is a four-family taxonomy: \texttt{F1} closed/Hermitian spectral resonance, \texttt{F2} open/non-Hermitian pole or quasinormal-mode resonance, \texttt{F3} nonlinear phase-locking resonance, and \texttt{F4} Floquet/parametric resonance. Admission into the taxonomy requires five fields for each row: governing object, resonance condition, observable, parameter packet, and demotion test. Cross-domain transfer is graded by an EXACT/ANALOGY gate: EXACT requires the same reduced operator structure or invariant packet up to named boundary conditions, whereas ANALOGY permits behavioral resemblance without mechanism identity. Across the 15-case stress-test ledger printed in this paper, including classical, quantum, open-system, nonlinear, driven, many-body, and noise-activated examples, we find no fifth-family survivor. This is a bounded claim about the visible stress-test corpus, not an unbounded closure claim.
+\end{abstract}
+
+\maketitle
+
+\section{Problem statement}
+
+The literature uses the word resonance for sharply different physical mechanisms: discrete mode excitation, scattering poles, synchronization, parametric instability, interference line shapes, exceptional points, bound states in the continuum, stochastic rate matching, and discrete time-crystal response. A usable taxonomy cannot be built from vocabulary alone. It must classify systems by the mathematical object without which the phenomenon ceases to be the same phenomenon.
+
+The central claim of this paper is therefore taxonomic rather than metaphysical. We do not claim that all future resonance-like phenomena must fall into our scheme. We claim only that, under the current corpus and admissibility contract, the four families below absorb all admitted cases and leave zero confirmed pressure for a fifth top-level family.
+
+\section{Admissibility contract}
+
+Any row admitted to the taxonomy must specify five fields:
+
+\begin{enumerate}
+\item \texttt{Governing object}: the load-bearing mathematical object that organizes the phenomenon.
+\item \texttt{Resonance condition}: the condition under which the effect is expected to occur.
+\item \texttt{Observable}: the measurable response class.
+\item \texttt{Parameter packet}: the minimal control and system parameters required to state the prediction.
+\item \texttt{Demotion test}: the falsifier that would demote the row to analogy, adjacency, or non-resonant dynamics.
+\end{enumerate}
+
+This five-field contract is operationalized by six invariants.
+
+\subsection*{T1. Mechanism packet invariant}
+
+A resonance claim must name participating degrees of freedom, the relevant spectral or phase object, the coupling or drive, the damping or linewidth or locking range or instability width, and a measurable response variable. If one of those objects is missing, the claim is not a mechanism row.
+
+\subsection*{T2. Family-membership invariant}
+
+A row belongs to a top-level family only by its governing mathematical object: closed spectral, open pole/QNM, nonlinear phase-locking, or Floquet/parametric. If the claimed family can be removed without destroying the phenomenon, the row is misclassified.
+
+\subsection*{T3. Observable discriminator invariant}
+
+A resonance claim is testable only when it states the observable class expected to change: amplitude peak, absorbed power, linewidth, ringdown decay rate, phase lag, locking order parameter, instability exponent, transmission zero, or another explicit measurable.
+
+\subsection*{T4. Exact-transfer invariant}
+
+Cross-domain reuse is EXACT only when the reduced operator structure or invariant packet survives the transfer, including a named failure boundary. Similar plots or vocabulary alone do not constitute mechanism transfer.
+
+\subsection*{T5. Selection-rule invariant}
+
+Selection-rule language is exact only when a coupling or projection operator is defined and its null or non-null structure enters the prediction. Otherwise selection-rule wording is merely heuristic.
+
+\subsection*{T6. Open-system subfamily invariant}
+
+Exceptional points, Fano structures, bound states in the continuum, dark states, and related zero/interference phenomena are subfamily or observable-level statements inside the open family. They are not independent top-level families unless they introduce a distinct governing object.
+
+\section{The four top-level families}
+
+\subsection{F1: closed/Hermitian spectral resonance}
+
+The defining object of \texttt{F1} is a self-adjoint or effectively closed spectral problem with discrete modes or gaps. Canonical examples include molecular-beam magnetic resonance, bulk NMR, and cyclotron resonance. The decisive signature is frequency-selective excitation of a discrete mode structure with an explicit resonance observable and a demotion test that excludes broadband heating or non-specific response.
+
+\subsection{F2: open/non-Hermitian pole or quasinormal-mode resonance}
+
+The defining object of \texttt{F2} is a complex pole, outgoing-boundary eigenmode, resolvent singularity, or equivalent open-system spectral object. Canonical examples include Breit-Wigner nuclear resonance and black-hole quasinormal modes. This family also hosts boundary packets and observable overlays such as exceptional points, Fano interference, and bound states in the continuum, provided their open-system singular or embedded-state structure is made explicit. If the effect can be stated without a complex pole, outgoing-boundary mode, or equivalent open-system spectral object, the row demotes to analogy, adjacency, or a different family.
+
+\subsection{F3: nonlinear phase-locking resonance}
+
+The defining object of \texttt{F3} is a reduced nonlinear phase dynamics with explicit detuning, coupling, and a lock or unlock boundary. Canonical examples include Adler injection locking, nonlinear subharmonic entrainment, and Shapiro-step Josephson locking. A peak without phase capture is not enough.
+
+\subsection{F4: Floquet/parametric resonance}
+
+The defining object of \texttt{F4} is a periodically modulated operator, Floquet map, monodromy operator, quasienergy structure, or instability tongue generated by coefficient modulation or periodic driving. Canonical examples include Mathieu-type parametric resonance, Faraday waves, and periodically driven many-body systems where the governing object is explicitly Floquet. If periodic driving does not supply a load-bearing Floquet, monodromy, quasienergy, or instability-tongue object, the row demotes to analogy, adjacency, or a different family.
+
+\section{EXACT versus ANALOGY}
+
+The taxonomy is not only a classification scheme but a transfer-discipline rule.
+
+\texttt{EXACT} means the same reduced operator structure or invariant packet survives the translation between domains, together with a named failure boundary. For example, a pole-governed ringdown in gravitational physics and a pole-governed scattering resonance in another open system may legitimately share \texttt{F2} structure if the pole description does the explanatory work in both cases.
+
+\texttt{ANALOGY} means the behavior is similar but the governing object changes. Similar line shapes, instability onsets, or synchronization motifs are insufficient for exact transfer unless the operator-level reduction survives. This gate prevents the taxonomy from collapsing into vocabulary reuse.
+
+\section{Boundary cases and adjacent named phenomena}
+
+The four-family structure only remains stable if common naming traps are handled explicitly.
+
+\subsection{Exceptional points, Fano, and BIC}
+
+Exceptional points are not a fifth resonance family. They are a strict open-family boundary packet requiring a defective complex-spectral singularity plus topology evidence. Fano structures are observable overlays inside \texttt{F2}, not top-level families. Bound states in the continuum are embedded-state boundary cases inside \texttt{F2}, not independent parents.
+
+\subsection{Stochastic, coherence, and vibrational resonance}
+
+Stochastic resonance, coherence resonance, and vibrational resonance remain adjacent-but-not-admitted under the present taxonomy. These are real phenomena, but the current audited rows do not share a single governing object strong enough to force a fifth deterministic top-level family. The correct bounded claim is that they remain a \texttt{noise-activated and vibration-assisted rate-matching} adjacent cluster.
+
+\subsection{Floquet discrete time crystals}
+
+Floquet discrete time crystals (DTCs) belong at the F4 boundary when classification is keyed to the governing mathematical object: the Floquet operator. The subharmonic response mechanism, including many-body eigenstate order, differs from standard parametric frequency selection but does not introduce a new governing-object class; therefore it does not justify a fifth family under this taxonomy.
+
+This boundary sentence matters because DTCs are one of the strongest apparent challenges to the four-family split. The taxonomy survives only if classification is anchored to governing object rather than to the sociological label attached to the mechanism.
+
+The publication-facing DTC source chain used for this boundary classification is the review/framework note of Sacha and Zakrzewski \cite{sacha2018review}, the earlier modeling note of Sacha \cite{sacha2015modeling}, the companion Floquet-time-crystal theory papers of Khemani et al. \cite{khemani2016phase} and Else et al. \cite{else2016floquet}, the Yao et al. theory anchor \cite{yao2017discrete}, the dissipative theory row of Lledo and Szymanska \cite{lledo2020dissipative}, and the dissipative observation of Kessler et al. \cite{kessler2021observation}.
+
+\section{Corpus result}
+
+The publication corpus used here is the 15-case stress-test ledger in Sec.~\ref{sec:ledger}. Internal program notes also contain larger exploratory audits, but those larger audits are not load-bearing for the present paper because they are not reproduced here.
+
+Representative audited boundary packets within those sectors include chaotic-system resonances \cite{ruelle1986resonances}, quantum-chaotic phase-space structures \cite{bohigas1993manifestations}, active-matter long-range order \cite{toner1995long}, and ghost resonance in heterogeneous neuronal pools \cite{balenzuela2007ghost}.
+
+Under this visible 15-case audit, the result is negative discipline rather than taxonomy inflation. We find no fifth-family survivor in the stress-test ledger. The load-bearing decision rule is the governing object. Once that rule is enforced, many tempting extra families demote to subfamily, overlay, adjacent cluster, or analogy.
+
+\section{Scope and claim discipline}
+
+This paper makes a bounded claim. It does not assert exhaustive closure over every possible future resonance phenomenon or every broader framework in physics. It states that, for the printed stress-test corpus and admissibility contract, the best top-level classification is four-family and that no tested case forces a fifth family.
+
+That scope discipline is not rhetorical caution. It is structurally necessary. A taxonomy paper should overclaim only when it can name the mechanism that breaks the demotion rule. At present, no such fifth-family mechanism survives the audited corpus.
+
+\section{Conclusion}
+
+The publication-safe core of the taxonomy is narrow and defensible: resonance mechanisms are best classified by governing object; a five-field admissibility contract blocks morphology-driven drift; cross-domain transfer must clear an EXACT/ANALOGY gate; Floquet DTC remains an \texttt{F4} boundary case; and the printed 15-case stress test yields no fifth-family survivor.
+
+\appendix
+
+\section{Printed Stress-Test Ledger}
+\label{sec:ledger}
+
+This appendix lists the complete stress-test corpus used for the publication claim. Each row was classified by governing object first; the family label is downstream of that object.
+
+\begin{enumerate}
+\item Rabi molecular-beam magnetic resonance: \texttt{PASS\_EXACT} as \texttt{F1}; governing object: discrete Zeeman/Larmor spectral gap in a near-closed spin system; demotion: broadband heating or deflection without resolved gap \cite{rabi1938space}.
+\item Bulk NMR in solids: \texttt{PASS\_EXACT} as \texttt{F1}; governing object: discrete nuclear spin splitting in a strong static field; demotion: thermal response without frequency-selective spin transition \cite{purcell1946resonance}.
+\item Cyclotron resonance in Si/Ge: \texttt{PASS\_EXACT} as \texttt{F1}; governing object: orbital/band-edge cyclotron frequency of charge carriers; demotion: nonresonant Drude rolloff or missing anisotropic cyclotron scaling \cite{dresselhaus1955cyclotron}.
+\item Breit-Wigner nuclear resonance: \texttt{PASS\_EXACT} as \texttt{F2}; governing object: isolated complex S-matrix or resolvent pole with partial widths; demotion: threshold cusp or smooth background artifact \cite{wigner1946resonance}.
+\item Black-hole quasinormal modes: \texttt{PASS\_EXACT} as \texttt{F2}; governing object: complex quasinormal frequencies under outgoing/ingoing boundary conditions; demotion: generic damped sinusoid without QNM boundary discipline \cite{maggiore2008physical}.
+\item Exceptional point in a microwave cavity: \texttt{PASS\_SPLIT\_BOUNDARY} inside \texttt{F2}; governing object: defective non-Hermitian spectral branch point; demotion: generic non-normal gain/loss without coalescence and topology \cite{dembowski2001experimental}.
+\item Optical bound state in the continuum: \texttt{PASS\_SPLIT\_BOUNDARY} inside \texttt{F2}; governing object: embedded eigenvalue or zero-leakage state inside a radiation continuum; demotion: ordinary finite-\(Q\) guided resonance \cite{hsu2013observation}.
+\item Fano autoionization line shape: \texttt{PASS\_OBSERVABLE\_OVERLAY} inside \texttt{F2}; governing object: discrete-continuum interference, not a separate top-level family; demotion: line-shape naming without pole-plus-continuum decomposition \cite{fano1961effects}.
+\item Adler injection locking: \texttt{PASS\_EXACT} as \texttt{F3}; governing object: phase-reduced nonlinear oscillator; demotion: linear response peak without phase capture or phase-slip boundary \cite{adler1946locking}.
+\item Van der Pol frequency demultiplication: \texttt{PASS\_EXACT} as \texttt{F3}; governing object: self-oscillatory limit cycle with subharmonic entrainment; demotion: passive harmonic response without autonomous phase dynamics \cite{vanderpol1927frequency}.
+\item Shapiro steps in Josephson tunneling: \texttt{PASS\_EXACT} as \texttt{F3}; governing object: Josephson phase dynamics on a nonlinear synchronization manifold; demotion: cavity or transport features without Josephson phase locking \cite{shapiro1963josephson}.
+\item MEMS parametric-resonance tongues: \texttt{PASS\_EXACT} as \texttt{F4}; governing object: periodically modulated operator or Mathieu-Floquet monodromy; demotion: direct resonance without instability-tongue structure \cite{turner1998five}.
+\item Faraday waves: \texttt{PASS\_EXACT} as \texttt{F4}; governing object: Floquet instability of a periodically forced free-surface mode; demotion: pattern formation without subharmonic threshold or mode-selection structure \cite{rajchenbach2021faraday}.
+\item Discrete time crystal: \texttt{PASS\_EXACT} at the \texttt{F4} boundary; governing object: Floquet many-body evolution operator with robust subharmonic orbit; demotion: transient or fine-tuned period doubling \cite{zhang2017observation,choi2017observation,sacha2018review,khemani2016phase,else2016floquet,yao2017discrete}.
+\item Stochastic resonance: \texttt{QUARANTINE\_ADJACENT}; governing object: noise-assisted switching or Kramers-rate matching, not one of the four deterministic top-level governing objects in this taxonomy; demotion: keep adjacent unless a separate noise-activated rate-matching family is intentionally added \cite{benzi1983mechanism}.
+\end{enumerate}
+
+\bibliography{2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex_refs}
+
+\end{document}

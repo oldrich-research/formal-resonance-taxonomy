@@ -1,0 +1,63 @@
+note: Running TeX ...
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:46: Underfull \hbox (badness 4181) in paragraph at lines 45--46
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:46: Underfull \hbox (badness 1546) in paragraph at lines 45--46
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:46: Underfull \hbox (badness 4569) in paragraph at lines 45--46
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:136: Underfull \hbox (badness 10000) in paragraph at lines 135--136
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:136: Underfull \hbox (badness 1038) in paragraph at lines 135--136
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:141: Underfull \hbox (badness 10000) in paragraph at lines 140--141
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:141: Underfull \hbox (badness 10000) in paragraph at lines 140--141
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:142: Underfull \hbox (badness 10000) in paragraph at lines 141--142
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:142: Underfull \hbox (badness 10000) in paragraph at lines 141--142
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:143: Underfull \hbox (badness 10000) in paragraph at lines 142--143
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:143: Underfull \hbox (badness 5077) in paragraph at lines 142--143
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:145: Underfull \hbox (badness 10000) in paragraph at lines 144--145
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:145: Underfull \hbox (badness 5490) in paragraph at lines 144--145
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:145: Underfull \hbox (badness 5064) in paragraph at lines 144--145
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.bbl:73: Underfull \hbox (badness 1910) in paragraph at lines 66--73
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.bbl:167: Underfull \hbox (badness 1796) in paragraph at lines 159--167
+note: Running BibTeX on 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.aux ...
+note: warnings were issued by BibTeX; use --print and/or --keep-logs for details.
+note: Rerunning TeX because bibtex was run ...
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:46: Underfull \hbox (badness 4181) in paragraph at lines 45--46
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:46: Underfull \hbox (badness 1546) in paragraph at lines 45--46
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:46: Underfull \hbox (badness 4569) in paragraph at lines 45--46
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:136: Underfull \hbox (badness 10000) in paragraph at lines 135--136
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:136: Underfull \hbox (badness 1038) in paragraph at lines 135--136
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:141: Underfull \hbox (badness 10000) in paragraph at lines 140--141
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:141: Underfull \hbox (badness 10000) in paragraph at lines 140--141
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:142: Underfull \hbox (badness 10000) in paragraph at lines 141--142
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:142: Underfull \hbox (badness 10000) in paragraph at lines 141--142
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:143: Underfull \hbox (badness 10000) in paragraph at lines 142--143
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:143: Underfull \hbox (badness 5077) in paragraph at lines 142--143
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:145: Underfull \hbox (badness 10000) in paragraph at lines 144--145
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:145: Underfull \hbox (badness 5490) in paragraph at lines 144--145
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:145: Underfull \hbox (badness 5064) in paragraph at lines 144--145
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.bbl:73: Underfull \hbox (badness 1910) in paragraph at lines 66--73
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.bbl:167: Underfull \hbox (badness 1796) in paragraph at lines 159--167
+note: Rerunning TeX because "2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.aux" changed ...
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:46: Underfull \hbox (badness 4181) in paragraph at lines 45--46
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:46: Underfull \hbox (badness 1546) in paragraph at lines 45--46
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:46: Underfull \hbox (badness 4569) in paragraph at lines 45--46
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:136: Underfull \hbox (badness 10000) in paragraph at lines 135--136
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:136: Underfull \hbox (badness 1038) in paragraph at lines 135--136
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:141: Underfull \hbox (badness 10000) in paragraph at lines 140--141
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:141: Underfull \hbox (badness 10000) in paragraph at lines 140--141
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:142: Underfull \hbox (badness 10000) in paragraph at lines 141--142
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:142: Underfull \hbox (badness 10000) in paragraph at lines 141--142
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:143: Underfull \hbox (badness 10000) in paragraph at lines 142--143
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:143: Underfull \hbox (badness 5077) in paragraph at lines 142--143
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:145: Underfull \hbox (badness 10000) in paragraph at lines 144--145
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:145: Underfull \hbox (badness 5490) in paragraph at lines 144--145
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.tex:145: Underfull \hbox (badness 5064) in paragraph at lines 144--145
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.bbl:73: Underfull \hbox (badness 1910) in paragraph at lines 66--73
+warning: 2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.bbl:167: Underfull \hbox (badness 1796) in paragraph at lines 159--167
+warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.
+note: Running xdvipdfmx ...
+note: downloading lmtt9.pfb
+note: downloading lmtt10.pfb
+note: Writing `2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.blg` (1.072265625 KiB)
+note: Writing `2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.log` (10.3388671875 KiB)
+note: Writing `2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.pdf` (56.482421875 KiB)
+note: Writing `2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.aux` (6.1630859375 KiB)
+note: Writing `2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtexNotes.bib` (104 B)
+note: Writing `2026-05-16_RF-PUB-08_formal_resonance_taxonomy_pra_revtex.bbl` (22.71484375 KiB)
