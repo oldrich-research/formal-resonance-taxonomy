@@ -1,59 +1,363 @@
-note: Running TeX ...
-warning: main.tex:46: Underfull \hbox (badness 4181) in paragraph at lines 45--46
-warning: main.tex:46: Underfull \hbox (badness 1546) in paragraph at lines 45--46
-warning: main.tex:46: Underfull \hbox (badness 4569) in paragraph at lines 45--46
-warning: main.tex:136: Underfull \hbox (badness 10000) in paragraph at lines 135--136
-warning: main.tex:136: Underfull \hbox (badness 1038) in paragraph at lines 135--136
-warning: main.tex:141: Underfull \hbox (badness 10000) in paragraph at lines 140--141
-warning: main.tex:141: Underfull \hbox (badness 10000) in paragraph at lines 140--141
-warning: main.tex:142: Underfull \hbox (badness 10000) in paragraph at lines 141--142
-warning: main.tex:142: Underfull \hbox (badness 10000) in paragraph at lines 141--142
-warning: main.tex:143: Underfull \hbox (badness 10000) in paragraph at lines 142--143
-warning: main.tex:143: Underfull \hbox (badness 5077) in paragraph at lines 142--143
-warning: main.tex:145: Underfull \hbox (badness 10000) in paragraph at lines 144--145
-warning: main.tex:145: Underfull \hbox (badness 5490) in paragraph at lines 144--145
-warning: main.tex:145: Underfull \hbox (badness 5064) in paragraph at lines 144--145
-note: Running BibTeX on main.aux ...
-note: warnings were issued by BibTeX; use --print and/or --keep-logs for details.
-note: Rerunning TeX because bibtex was run ...
-warning: main.tex:46: Underfull \hbox (badness 4181) in paragraph at lines 45--46
-warning: main.tex:46: Underfull \hbox (badness 1546) in paragraph at lines 45--46
-warning: main.tex:46: Underfull \hbox (badness 4569) in paragraph at lines 45--46
-warning: main.tex:136: Underfull \hbox (badness 10000) in paragraph at lines 135--136
-warning: main.tex:136: Underfull \hbox (badness 1038) in paragraph at lines 135--136
-warning: main.tex:141: Underfull \hbox (badness 10000) in paragraph at lines 140--141
-warning: main.tex:141: Underfull \hbox (badness 10000) in paragraph at lines 140--141
-warning: main.tex:142: Underfull \hbox (badness 10000) in paragraph at lines 141--142
-warning: main.tex:142: Underfull \hbox (badness 10000) in paragraph at lines 141--142
-warning: main.tex:143: Underfull \hbox (badness 10000) in paragraph at lines 142--143
-warning: main.tex:143: Underfull \hbox (badness 5077) in paragraph at lines 142--143
-warning: main.tex:145: Underfull \hbox (badness 10000) in paragraph at lines 144--145
-warning: main.tex:145: Underfull \hbox (badness 5490) in paragraph at lines 144--145
-warning: main.tex:145: Underfull \hbox (badness 5064) in paragraph at lines 144--145
-warning: main.bbl:73: Underfull \hbox (badness 1728) in paragraph at lines 66--73
-warning: main.bbl:167: Underfull \hbox (badness 1675) in paragraph at lines 159--167
-note: Rerunning TeX because "main.aux" changed ...
-warning: main.tex:46: Underfull \hbox (badness 4181) in paragraph at lines 45--46
-warning: main.tex:46: Underfull \hbox (badness 1546) in paragraph at lines 45--46
-warning: main.tex:46: Underfull \hbox (badness 4569) in paragraph at lines 45--46
-warning: main.tex:136: Underfull \hbox (badness 10000) in paragraph at lines 135--136
-warning: main.tex:136: Underfull \hbox (badness 1038) in paragraph at lines 135--136
-warning: main.tex:141: Underfull \hbox (badness 10000) in paragraph at lines 140--141
-warning: main.tex:141: Underfull \hbox (badness 10000) in paragraph at lines 140--141
-warning: main.tex:142: Underfull \hbox (badness 10000) in paragraph at lines 141--142
-warning: main.tex:142: Underfull \hbox (badness 10000) in paragraph at lines 141--142
-warning: main.tex:143: Underfull \hbox (badness 10000) in paragraph at lines 142--143
-warning: main.tex:143: Underfull \hbox (badness 5077) in paragraph at lines 142--143
-warning: main.tex:145: Underfull \hbox (badness 10000) in paragraph at lines 144--145
-warning: main.tex:145: Underfull \hbox (badness 5490) in paragraph at lines 144--145
-warning: main.tex:145: Underfull \hbox (badness 5064) in paragraph at lines 144--145
-warning: main.bbl:73: Underfull \hbox (badness 1910) in paragraph at lines 66--73
-warning: main.bbl:167: Underfull \hbox (badness 1796) in paragraph at lines 159--167
-warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.
-note: Running xdvipdfmx ...
-note: Writing `main.pdf` (56.482421875 KiB)
-note: Writing `main.bbl` (22.71484375 KiB)
-note: Writing `main.log` (9.974609375 KiB)
-note: Writing `main.aux` (6.111328125 KiB)
-note: Writing `mainNotes.bib` (104 B)
-note: Writing `main.blg` (992 B)
+**
+(main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (revtex4-2.cls
+Document Class: revtex4-2 2020/10/03 4.2e (https://journals.aps.org/revtex/ for
+ documentation)
+ Copyright (c) 2019 American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <arthur_ogawa at sbcglobal dot net>
+ Based on work by David Carlisle <david at dcarlisle.demon.co.uk>
+ Version (4.2d,4.2e): Modified by Mark Doyle and Phelype Oleinik
+ .
+ltxutil[2020/10/03 4.2e utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+LaTeX Info: Redefining \@centercr on input line 356.
+Class revtex4-2 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
+note on input line 481.
+Class revtex4-2 Info: Repairing broken LateX \@sect on input line 803.
+\intertabularlinepenalty=\count181
+\@tbpen=\count182
+\@arstrutbox@hline=\box50
+Class revtex4-2 Info: Repairing broken LaTeX \@xbitor on input line 1834.
+Class revtex4-2 Info: Making \typeout \long on input line 2099.
+ltxfront[2020/10/03 4.2e frontmatter package (AO,DPC,MD)]
+\c@affil=\count183
+\c@collab=\count184
+\absbox=\box51
+ltxgrid[2020/10/03 4.2e page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+\c@linecount=\count185
+\output@latex=\toks16
+\box@size@1=\box52
+\box@size@2=\box53
+\@protection@box=\box54
+\@topmark@saved=\toks17
+\footins@saved=\box55
+\footins@recovered=\box56
+\column@recovered=\box57
+\pagesofar=\box58
+\footsofar=\box59
+\pagegrid@col=\count186
+Class revtex4-2 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
+ \\  on input line 5665.
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\c@figure=\count193
+\fbox@1=\box60
+\c@table=\count194
+\fbox@2=\box61
+\c@video=\count195
+\fbox@4=\box62
+\@bibdataout=\write3
+\widetext@top=\box63
+\widetext@bot=\box64
+Class revtex4-2 Info: Selecting society aps on input line 7658.
+(aps4-2.rtx
+File: aps4-2 2020/10/03 4.2e (https://journals.aps.org/revtex/ for documentatio
+n)
+Class revtex4-2 Info: RevTeX society APS selected on input line 40.
+)
+Class revtex4-2 Info: Selecting journal pra on input line 7660.
+Class revtex4-2 Info: APS journal PRA selected on input line 7661.
+ (aps10pt4-2.rtx
+File: aps10pt4-2 2020/10/03 4.2e (https://journals.aps.org/revtex/ for document
+ation)
+Class revtex4-2 Info: RevTeX pointsize 10pt selected on input line 39.
+) (textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+) (url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip49
+\bibsep=\skip50
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count196
+)
+Class revtex4-2 Info: Repairing natbib's \BibitemShut on input line 7665.
+
+(revsymb4-2.sty
+Package: revsymb4-2 2020/10/03 4.2e (https://journals.aps.org/revtex/ for docum
+entation)
+LaTeX Info: Redefining \REV@mathfrak on input line 128.
+)) (fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+ (t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)) (microtype.sty
+Package: microtype 2022/03/14 v3.0d Micro-typographical refinements (RS)
+ (keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count197
+)
+\MT@toks=\toks19
+\MT@tempbox=\box65
+\MT@count=\count198
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1027.
+LaTeX Info: Redefining \leftprotrusion on input line 1028.
+LaTeX Info: Redefining \rightprotrusion on input line 1036.
+LaTeX Info: Redefining \textls on input line 1195.
+\MT@outer@kern=\dimen138
+LaTeX Info: Redefining \textmicrotypecontext on input line 1781.
+\MT@listname@count=\count199
+ (microtype-xetex.def
+File: microtype-xetex.def 2022/03/14 v3.0d Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 236.
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ (microtype.cfg
+File: microtype.cfg 2022/03/14 v3.0d microtype main configuration file (RS)
+))
+Class revtex4-2 Info: Unrecognized LaTeX tabular. Please update this document c
+lass! (Proceeding with fingers crossed.) on input line 6.
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 6.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 6.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 6.
+ (l3backend-xetex.def
+File: l3backend-xetex.def 2022-02-07 L3 backend support: XeTeX
+\c__kernel_sys_dvipdfmx_version_int=\count266
+\l__color_backend_stack_int=\count267
+\g__color_backend_stack_int=\count268
+\g__graphics_track_int=\count269
+\l__pdf_internal_box=\box66
+\g__pdf_backend_object_int=\count270
+\g__pdf_backend_annotation_int=\count271
+\g__pdf_backend_link_int=\count272
+)
+(main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
+.
+ (ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Info: Redefining \microtypecontext on input line 6.
+Package microtype Info: Applying patch `item' on input line 6.
+Package microtype Info: Applying patch `toc' on input line 6.
+Package microtype Info: Applying patch `eqnum' on input line 6.
+
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 6.
+
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+(mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+\openout3 = `mainNotes.bib'.
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+4.
+ (t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 17.
+
+Underfull \hbox (badness 4181) in paragraph at lines 45--46
+[]\T1/lmr/m/n/10 A row be-longs to a top-level fam-ily only by
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 45--46
+\T1/lmr/m/n/10 its gov-ern-ing math-e-mat-i-cal ob-ject: closed spec-tral,
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 45--46
+\T1/lmr/m/n/10 open pole/QNM, non-lin-ear phase-locking, or Flo-
+ []
+
+[1] [2]
+Underfull \hbox (badness 1215) in paragraph at lines 111--112
+[]\T1/lmr/m/n/10 The pub-li-ca-tion cor-pus used here is the 54-case-
+ []
+
+
+Overfull \hbox (17.33699pt too wide) in paragraph at lines 111--112
+\T1/lmtt/m/n/10 2026-05-24_RF-PUB-13_54_case_public_supplement.tsv\T1/lmr/m/n/1
+0 .
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 111--112
+\T1/lmr/m/n/10 04, RF-TAX-05, RF-TAX-06, and RF-TAX-07: 15
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 111--112
+\T1/lmr/m/n/10 tri-bunal rows, 12 non-equilibrium coun-terex-am-ple
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+[]\T1/lmr/m/n/10 This ap-pendix prints a rep-re-sen-ta-tive sub-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+\T1/lmr/m/n/10 set of the stress-test cor-pus used for the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+\T1/lmr/m/n/10 pub-li-ca-tion claim. The count-bearing 54-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+\T1/lmr/m/n/10 case-test ledger is the pub-lic sup-ple-ment file
+ []
+
+
+Overfull \hbox (17.33699pt too wide) in paragraph at lines 132--133
+\T1/lmtt/m/n/10 2026-05-24_RF-PUB-13_54_case_public_supplement.tsv\T1/lmr/m/n/1
+0 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+ []\T1/lmr/m/n/10 Rabi molecular-beam mag-netic res-o-nance:
+ []
+
+
+Underfull \hbox (badness 3861) in paragraph at lines 135--136
+ \T1/lmtt/m/n/10 PASS_EXACT \T1/lmr/m/n/10 as \T1/lmtt/m/n/10 F1\T1/lmr/m/n/10 
+. Ob-ject: dis-crete Zee-
+ []
+
+
+Underfull \hbox (badness 3158) in paragraph at lines 135--136
+ \T1/lmr/m/n/10 man/Larmor spec-tral gap. Con-di-tion: RF
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 135--136
+ \T1/lmr/m/n/10 species, static field, RF am-pli-tude/frequency,
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+ []\T1/lmr/m/n/10 Exceptional point in a mi-crowave cav-ity:
+ []
+
+
+Underfull \hbox (badness 7685) in paragraph at lines 140--141
+ \T1/lmr/m/n/10 fec-tive non-Hermitian spec-tral branch point.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+ []\T1/lmr/m/n/10 Optical bound state in the con-tin-uum:
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 141--142
+ \T1/lmr/m/n/10 con-tin-uum. Con-di-tion: ra-di-a-tion am-pli-tudes
+ []
+
+
+Underfull \hbox (badness 3525) in paragraph at lines 141--142
+ \T1/lmr/m/n/10 ge-om-e-try, wave vec-tor, sym-me-try/interference
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+ []\T1/lmr/m/n/10 Fano au-toion-iza-tion line shape:
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 142--143
+ \T1/lmtt/m/n/10 PASS_OBSERVABLE_OVERLAY \T1/lmr/m/n/10 in-side \T1/lmtt/m/n/10
+ F2\T1/lmr/m/n/10 . Ob-ject:
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 142--143
+ \T1/lmr/m/n/10 crete au-toion-iz-ing level over-laps a con-tin-uum.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+ []\T1/lmr/m/n/10 Van der Pol fre-quency de-mul-ti-pli-ca-tion:
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 144--145
+ \T1/lmr/m/n/10 Ob-serv-able: de-mul-ti-plied or en-trained out-put
+ []
+
+
+Underfull \hbox (badness 2359) in paragraph at lines 144--145
+ \T1/lmr/m/n/10 au-tonomous fre-quency, non-lin-ear damp-ing pa-
+ []
+
+[4]
+Underfull \hbox (badness 1755) in paragraph at lines 149--150
+ \T1/lmr/m/n/10 ject: noise-assisted switch-ing or Kramers-rate
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 149--150
+ \T1/lmr/m/n/10 level ob-jects. Con-di-tion: noise tunes switch-
+ []
+
+(main.bbl
+Underfull \hbox (badness 1910) in paragraph at lines 66--73
+ []\T1/lmr/m/n/9 K. Sacha, Mod-el-ing spon-ta-neous break-ing of time-
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 159--167
+ []\T1/lmr/m/n/9 J. Toner and Y. Tu, Long-range or-der in a two-
+ []
+
+) [5] (main.aux) )
+Output written on main.xdv (5 pages, 34172 bytes).
